@@ -6,10 +6,10 @@ This project analyzes the evolution of the EUR/DZD black market exchange rate in
 
 ## Data
 - The data was collected using the [Eurodz](https://eurodz.com/) API, which provides historical black market exchange rates alongside official rates. The analysis covers the period from 2016 to March 2026.
-- The [API](https://eurodz.com/api/data-294a869b196799a4.json) returns the historical EURO/DZD market exchange rates with the fields (date, buyRate, sellRate, officialBuyRate, officialSellRate) as a .json file.
+- ~~The [API](https://eurodz.com/api/data-294a869b196799a4.json) returns the historical EURO/DZD market exchange rates with the fields (date, buyRate, sellRate, officialBuyRate, officialSellRate) as a .json file~~ -> The API url changes every day :(
 
 ## Approach
-- Fetched the data directly from the [API](https://eurodz.com/api/data-294a869b196799a4.json), used only the Date and SellRate columns, and filtered up to March 2026 since the analysis was done on 20 March 2026. You can remove the filter and see the analysis up to the current date, but it would be inconsistent with the notebook markdown cells.
+- ~~Fetched the data directly from the [API](https://eurodz.com/api/data-294a869b196799a4.json)~~, used only the Date and SellRate columns, and filtered up to March 2026 since the analysis was done on 20 March 2026.
 - Cleaned and structured the time series data
 - Visualized long-term trends and major fluctuations  
 - Linked key movements to economic and policy events in Algeria  
