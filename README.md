@@ -16,7 +16,7 @@ This project analyzes the evolution of the EUR/DZD black market exchange rate in
 - Linked key movements to economic and policy events in Algeria  
 - Built a forecasting model to estimate future exchange rate behavior  
 
-  [See notebook](Notebook.ipynb)
+  [See notebook Github](Notebook.ipynb) / [See notebook Kaggle](https://www.kaggle.com/code/kadouciabdelhak/eur-dzd-black-market-rate-time-series-analysis) 
 
 
 ## Key Insights
